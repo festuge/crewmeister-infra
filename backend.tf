@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "crewmeisterbucket"
-    key            = "terraform.tfstate"
+    key            = "infra-state/terraform.tfstate"
     region         = "eu-central-1"
   }
 }
